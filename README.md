@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Dependencies:
+- Ruby 3.2.4
+- sqlite3
+- Node.js 20.12.2
 
-Things you may want to cover:
 
-* Ruby version
+Install dependencies:
+```bash
+bundle install
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run the web server from IDE or from terminal with
+```bash
+rails server
+```
