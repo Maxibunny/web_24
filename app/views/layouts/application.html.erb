@@ -11,6 +11,13 @@
   </head>
 
   <body>
-    <%= yield %>
+
+  <!--devise-->
+   <%= render 'include/auth/auth_header' %>
+  <!--devise-->
+
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+  <%= yield %>
   </body>
 </html>
