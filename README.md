@@ -29,3 +29,22 @@
 - /users/new - страница регистрации.
 
 Это приложение предоставляет базовый функционал для веб-сайта, на котором можно делиться и обсуждать статьи, а также взаимодействовать с другими пользователями. Оно идеально подходит для сообществ, где ценится обмен знаниями и мнениями.
+
+Dependencies:
+- Ruby 3.2.4
+- Ruby Rails 7.1.3
+- devise
+- bundler 2.5.10
+- sqlite3
+- Node.js 20.12.2
+
+
+Install dependencies:
+```bash
+bundle install
+```
+
+Run the web server from IDE or from terminal with
+```bash
+rails server
+```
